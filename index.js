@@ -29,23 +29,23 @@ document.addEventListener("DOMContentLoaded", function () {
   setInterval(nextSlide, 3000);
 });
 document.getElementById("year").innerHTML = new Date().getFullYear();
-document.getElementById("dev").innerHTML = "FEATHERCRAFT";
+document.getElementById("dev").innerHTML = "FC";
 
 
 let gImages = {
   bags: [
-    "b7.png",
-    "b2.png",
-    "b3.png",
-    "b4.png",
-    "b1.png",
-    "b5.png",
-    "b6.png",
+    "assets/b7.png",
+    "assets/b2.png",
+    "assets/b3.png",
+    "assets/b4.png",
+    "assets/b1.png",
+    "assets/b5.png",
+    "assets/b6.png",
   ],
-  wooden_Gifts: ["w1.png", "w2.png"],
-  diaries: ["d1.png", "d2.png", "d3.png"],
-  keychains: ["k1.png", "b8.png"],
-  more: ["m1.png", "m3.png", "m2.png"],
+  wooden_Gifts: ["assets/w1.png", "assets/w2.png"],
+  diaries: ["assets/d1.png", "assets/d2.png", "assets/d3.png"],
+  keychains: ["assets/k1.png", "assets/b8.png"],
+  more: ["assets/m1.png", "assets/m3.png", "assets/m2.png"],
 };
 
 let gCurrentCategory = "wooden_Gifts";
