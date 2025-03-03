@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
   setInterval(nextSlide, 3000);
 });
 document.getElementById("year").innerHTML = new Date().getFullYear();
-document.getElementById("dev").innerHTML = "FEATHER CRAFT";
+document.getElementById("dev").innerHTML = "FEATHERCRAFT";
 
 
 let gImages = {
